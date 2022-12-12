@@ -1,12 +1,23 @@
 {
     "country":  "us",
     "AppSourceCopMandatoryAffixes":  [
-        "<affix>"
+        "KXA"
     ],
-    "appFolders":  [
+    "appFolders":  [ 
+        "MainApp"
     ],
     "testFolders":  [
     ],
     "bcptTestFolders":  [
-    ]
+    ],
+    "appDependencyProbingPaths": [
+        {
+            "repo":  "https://github.com/vkhutornyi/baseapp",
+            "release_status":  "latestBuild",
+            "version":  "latest",
+            "projects":  "BaseApp",
+            "AuthTokenSecret":  "GHTOKENWORKFLOW"
+        }
+    ],
+    "RepoVersion":  "1.9"
 }
